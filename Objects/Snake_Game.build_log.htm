@@ -1,0 +1,281 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ÂµVision V5.34.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Mohamed Ahmed, Faculty of Engineering Ain Shams University, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.34.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.34.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+D:\University\4th year\1st Term\Rtos\Project\Snake_Game\Snake_Game.uvprojx
+Project File Date:  02/01/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+assembling startup_TM4C123.s...
+compiling freertos_evr.c...
+compiling list.c...
+compiling port.c...
+compiling heap_4.c...
+uart.c(169): warning: passing 'char [12]' to parameter of type 'uint8 *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  uint32 len = itoa(n , buff , 10);
+                        ^~~~
+uart.c(38): note: passing argument to parameter 'str' here
+static uint32 itoa(sint32 num, uint8* str, uint8 base)
+                                      ^
+uart.c(170): warning: passing 'char [12]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  print(buff);
+        ^~~~
+uart.c(150): note: passing argument to parameter 'str' here
+void print(const uint8 *str){
+                        ^
+uart.c(181): warning: passing 'char [12]' to parameter of type 'uint8 *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  uint32 len = itoa(n , buff , 16);
+                        ^~~~
+uart.c(38): note: passing argument to parameter 'str' here
+static uint32 itoa(sint32 num, uint8* str, uint8 base)
+                                      ^
+uart.c(182): warning: passing 'char [3]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  print("0x");
+        ^~~~
+uart.c(150): note: passing argument to parameter 'str' here
+void print(const uint8 *str){
+                        ^
+uart.c(186): warning: passing 'char [12]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  print(buff);
+        ^~~~
+uart.c(150): note: passing argument to parameter 'str' here
+void print(const uint8 *str){
+                        ^
+uart.c(197): warning: passing 'char [34]' to parameter of type 'uint8 *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  uint32 len = itoa(n , buff , 2);
+                        ^~~~
+uart.c(38): note: passing argument to parameter 'str' here
+static uint32 itoa(sint32 num, uint8* str, uint8 base)
+                                      ^
+uart.c(198): warning: passing 'char [3]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  print("0b");
+        ^~~~
+uart.c(150): note: passing argument to parameter 'str' here
+void print(const uint8 *str){
+                        ^
+uart.c(202): warning: passing 'char [34]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  print(buff);
+        ^~~~
+uart.c(150): note: passing argument to parameter 'str' here
+void print(const uint8 *str){
+                        ^
+8 warnings generated.
+compiling uart.c...
+compiling system_TM4C123.c...
+main.c(58): warning: implicit declaration of function 'initalize_screen' is invalid in C99 [-Wimplicit-function-declaration]
+                initalize_screen(); 
+                ^
+main.c(61): warning: implicit declaration of function 'draw_snake' is invalid in C99 [-Wimplicit-function-declaration]
+                draw_snake(); 
+                ^
+main.c(64): warning: implicit declaration of function 'draw_fruits' is invalid in C99 [-Wimplicit-function-declaration]
+                draw_fruits(); 
+                ^
+main.c(66): warning: implicit declaration of function 'draw_obstacle' is invalid in C99 [-Wimplicit-function-declaration]
+                 draw_obstacle(); 
+                 ^
+main.c(74): warning: passing 'char [18]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+                                        print("Level Passed!!!\r\n"); 
+                                              ^~~~~~~~~~~~~~~~~~~~~
+./uart.h(15): note: passing argument to parameter 'str' here
+void print(const uint8 *str);
+                        ^
+main.c(77): warning: passing 'char [12]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+                                print("Well Done!!");
+                                      ^~~~~~~~~~~~~
+./uart.h(15): note: passing argument to parameter 'str' here
+void print(const uint8 *str);
+                        ^
+main.c(78): warning: passing 'char [39]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+                                print("Press G to advance to the next level\r\n");
+                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./uart.h(15): note: passing argument to parameter 'str' here
+void print(const uint8 *str);
+                        ^
+main.c(95): warning: passing 'char [48]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+                                print("                        Welcome To Snake Game\r\n");
+                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./uart.h(15): note: passing argument to parameter 'str' here
+void print(const uint8 *str);
+                        ^
+main.c(96): warning: passing 'char [95]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+                                print("Control Keys:\r\nW: Move Snake Up\r\nS: Move Snake Down\r\nA: Move Snake Left\r\nD: Move Snake Right\r\n");
+                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./uart.h(15): note: passing argument to parameter 'str' here
+void print(const uint8 *str);
+                        ^
+main.c(97): warning: passing 'char [28]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+                                print("Press G to start the game\r\n");
+                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./uart.h(15): note: passing argument to parameter 'str' here
+void print(const uint8 *str);
+                        ^
+main.c(102): warning: passing 'char [9]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+                                print("score : ");
+                                      ^~~~~~~~~~
+./uart.h(15): note: passing argument to parameter 'str' here
+void print(const uint8 *str);
+                        ^
+main.c(115): warning: passing 'char [19]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+                                print(", Highest score : ");
+                                      ^~~~~~~~~~~~~~~~~~~~
+./uart.h(15): note: passing argument to parameter 'str' here
+void print(const uint8 *str);
+                        ^
+main.c(117): warning: passing 'char [3]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+                                print("\r\n");
+                                      ^~~~~~
+./uart.h(15): note: passing argument to parameter 'str' here
+void print(const uint8 *str);
+                        ^
+main.c(118): warning: passing 'char [41]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+                                print("Game over!!\r\nPress G to restart the game");
+                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./uart.h(15): note: passing argument to parameter 'str' here
+void print(const uint8 *str);
+                        ^
+main.c(123): warning: passing 'char [8]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+                                print(CLEAR_TERMINAL_MACRO_STRING);                             
+                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+./defs.h(12): note: expanded from macro 'CLEAR_TERMINAL_MACRO_STRING'
+#define CLEAR_TERMINAL_MACRO_STRING     "\033[2J\033[H"
+                                        ^~~~~~~~~~~~~~~
+./uart.h(15): note: passing argument to parameter 'str' here
+void print(const uint8 *str);
+                        ^
+main.c(125): warning: implicit declaration of function 'draw_screen' is invalid in C99 [-Wimplicit-function-declaration]
+                                draw_screen(); 
+                                ^
+main.c(126): warning: passing 'char [14]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+                          print("Level Score: ");
+                                ^~~~~~~~~~~~~~~
+./uart.h(15): note: passing argument to parameter 'str' here
+void print(const uint8 *str);
+                        ^
+main.c(128): warning: passing 'char [16]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+                                print("     My Score: ");
+                                      ^~~~~~~~~~~~~~~~~
+./uart.h(15): note: passing argument to parameter 'str' here
+void print(const uint8 *str);
+                        ^
+main.c(130): warning: passing 'char [21]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+                                print("     Highest Score: "); 
+                                      ^~~~~~~~~~~~~~~~~~~~~~
+./uart.h(15): note: passing argument to parameter 'str' here
+void print(const uint8 *str);
+                        ^
+main.c(132): warning: passing 'char [12]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+                                print("     time: ");
+                                      ^~~~~~~~~~~~~
+./uart.h(15): note: passing argument to parameter 'str' here
+void print(const uint8 *str);
+                        ^
+main.c(134): warning: passing 'char [3]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+                                print("\r\n");
+                                      ^~~~~~
+./uart.h(15): note: passing argument to parameter 'str' here
+void print(const uint8 *str);
+                        ^
+21 warnings generated.
+compiling main.c...
+game.c(90): warning: passing 'char [3]' to parameter of type 'const uint8 *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+                print("\r\n");
+                      ^~~~~~
+./uart.h(15): note: passing argument to parameter 'str' here
+void print(const uint8 *str);
+                        ^
+1 warning generated.
+compiling game.c...
+compiling queue.c...
+compiling timers.c...
+compiling tasks.c...
+linking...
+Program Size: Code=15344 RO-data=896 RW-data=24 ZI-data=18400  
+".\Objects\Snake_Game.axf" - 0 Error(s), 30 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS-FreeRTOS.10.4.6.pack
+                ARM.CMSIS-FreeRTOS.10.4.6
+                Bundle of FreeRTOS for Cortex-M and Cortex-A
+   * Component: Config Variant: FreeRTOS Version: 10.4.6
+   * Component: Core Variant: Cortex-M Version: 10.4.6
+   * Component: Heap Variant: Heap_4 Version: 10.4.6
+   * Component: Timers Version: 10.4.6
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+   * Component: Startup Version: 1.0.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\RTOS
+  .\RTE\_Target_1
+  C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include
+  C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include
+  C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F
+  C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\Asran\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM.FreeRTOS::RTOS:Config:FreeRTOS:10.4.6
+      Include file:  Config\ARMCM\FreeRTOSConfig.h
+
+   * Component: ARM.FreeRTOS::RTOS:Core:Cortex-M:10.4.6
+      Include file:  Source\include\FreeRTOS.h
+      Include file:  Source\include\queue.h
+      Include file:  Source\include\semphr.h
+      Source file:   Source\queue.c
+      Include file:  Source\include\task.h
+      Source file:   Source\list.c
+      Source file:   Source\tasks.c
+      Source file:   Source\portable\GCC\ARM_CM4F\port.c
+      Source file:   CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c
+
+   * Component: ARM.FreeRTOS::RTOS:Heap:Heap_4:10.4.6
+      Source file:   Source\portable\MemMang\heap_4.c
+
+   * Component: ARM.FreeRTOS::RTOS:Timers:10.4.6
+      Include file:  Source\include\timers.h
+      Source file:   Source\timers.c
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: Keil::Device:Startup:1.0.1
+      Source file:   Device\Source\system_TM4C123.c
+      Source file:   Device\Source\ARM\startup_TM4C123.s
+      Include file:  Device\Include\TM4C123\TM4C123.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

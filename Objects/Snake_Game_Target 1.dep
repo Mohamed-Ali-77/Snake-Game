@@ -1,0 +1,173 @@
+Dependencies for Project 'Snake_Game', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\main.c)(0x63DA68C1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I .-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="534" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/main.o -MD)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182D82C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6035F908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035F908)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x63D45F12)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6152F422)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6035F908)
+I (RTE\_Target_1\RTE_Components.h)(0x63DA3E41)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\semphr.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\timers.h)(0x6182D82C)
+I (uart.h)(0x63DA5B7B)
+I (std_types.h)(0x63554E88)
+I (tm4c123gh6pm_registers.h)(0x63554D32)
+I (defs.h)(0x63DA6909)
+I (game.h)(0x63DA6160)
+F (.\std_types.h)(0x63554E88)()
+F (.\tm4c123gh6pm_registers.h)(0x63554D32)()
+F (.\uart.c)(0x63DA51A3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I .-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="534" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/uart.o -MD)
+I (uart.h)(0x63DA5B7B)
+I (std_types.h)(0x63554E88)
+I (tm4c123gh6pm_registers.h)(0x63554D32)
+F (.\uart.h)(0x63DA5B7B)()
+F (.\defs.h)(0x63DA6909)()
+F (.\game.c)(0x63DA615C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I .-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="534" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/game.o -MD)
+I (game.h)(0x63DA6160)
+I (std_types.h)(0x63554E88)
+I (defs.h)(0x63DA6909)
+I (uart.h)(0x63DA5B7B)
+I (tm4c123gh6pm_registers.h)(0x63554D32)
+F (.\game.h)(0x63DA6160)()
+F (RTE\Device\TM4C123GH6PM\startup_TM4C123.s)(0x51B6E406)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --pd "__MICROLIB SETA 1"-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include-IC:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F-IC:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Asran\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 534"--pd "_RTE_ SETA 1"--pd "TM4C123GH6PM SETA 1"--pd "_RTE_ SETA 1"--list .\listings\startup_tm4c123.lst--xref -o .\objects\startup_tm4c123.o--depend .\objects\startup_tm4c123.d)
+F (RTE\Device\TM4C123GH6PM\system_TM4C123.c)(0x63D412B6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I .-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="534" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/system_tm4c123.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035F908)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F2582)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE189B2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035F904)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6E406)
+F (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c)(0x6152F422)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I .-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="534" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/freertos_evr.o -MD)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182D82C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6035F908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035F908)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x63D45F12)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6152F422)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6035F908)
+I (RTE\_Target_1\RTE_Components.h)(0x63DA3E41)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\semphr.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\event_groups.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\timers.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\stream_buffer.h)(0x6182D82C)
+F (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\list.c)(0x6182D82C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I .-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="534" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/list.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035F908)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182D82C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6035F908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035F908)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x63D45F12)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6152F422)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6035F908)
+I (RTE\_Target_1\RTE_Components.h)(0x63DA3E41)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182D82C)
+F (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\port.c)(0x6182D82C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I .-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="534" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/port.o -MD)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182D82C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6035F908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035F908)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x63D45F12)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6152F422)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6035F908)
+I (RTE\_Target_1\RTE_Components.h)(0x63DA3E41)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182D82C)
+F (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\MemMang\heap_4.c)(0x6182D82C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I .-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="534" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/heap_4.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035F908)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182D82C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6035F908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035F908)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x63D45F12)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6152F422)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6035F908)
+I (RTE\_Target_1\RTE_Components.h)(0x63DA3E41)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182D82C)
+F (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\queue.c)(0x6182D82C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I .-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="534" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/queue.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035F908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6035F908)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182D82C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6035F908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035F908)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x63D45F12)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6152F422)
+I (RTE\_Target_1\RTE_Components.h)(0x63DA3E41)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182D82C)
+F (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\tasks.c)(0x6182D82C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I .-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="534" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/tasks.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035F908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6035F908)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182D82C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6035F908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035F908)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x63D45F12)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6152F422)
+I (RTE\_Target_1\RTE_Components.h)(0x63DA3E41)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\timers.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\stack_macros.h)(0x6182D82C)
+F (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\timers.c)(0x6182D82C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I .-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/Asran/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/Asran/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="534" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/timers.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035F908)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182D82C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6035F908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035F908)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x63D45F12)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6152F422)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6035F908)
+I (RTE\_Target_1\RTE_Components.h)(0x63DA3E41)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182D82C)
+I (C:\Users\Asran\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\timers.h)(0x6182D82C)
+F (RTE\RTOS\FreeRTOSConfig.h)(0x63D45F12)()
